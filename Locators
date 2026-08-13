@@ -1,0 +1,41 @@
+Amazon logo, search by ID, "nav-logo-sprites"
+Email field, search by ID, "ap_email_login"
+Continue button, search by class, "a-button-input"
+conditions of use link, search by Link Text, "Conditions of Use"
+Privacy Notice link, search by Link Text, "Privacy Notice"
+Need help link, search by Link Text, "Need help?"
+Create a free business account link, search by ID, "ab-registration-ingress-link"
+
+=== HW3 - StackOverflow Locators ===
+Email field:
+CSS: #email
+XPath: //input[@id='email']
+
+Password field:
+CSS: #password
+XPath: //input[@id='js-password']
+
+Sign up field:
+CSS: #sign up
+XPATH: //button[@id='Submit-button']
+
+=== HW3 - Target BDD ===
+css: [data-test="@web/CartLink"]
+XPath: //a[@data-test="@web/CartLink"]
+
+Your cart is empty message:
+CSS: [data-test="boxEmptyMsg"]
+XPath: //div[@data-test="boxEmptyMsg"]
+
+=== HW3 - Target account sign BDD ===
+Account/Sign In button:
+CSS: [data-test="@web/AccountLink"]
+XPath: //a[@data-test="@web/AccountLink"]
+
+Sign in or create account:
+CSS: [data-test="@web/AccountLink"]
+XPath: //button[contains(text(),'Sign in or create account')]
+
+id:login
+CSS: #login
+XPath: //button[@id='login']
